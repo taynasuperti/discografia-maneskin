@@ -1,392 +1,517 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Måneskin</title>
 
     <!-- Linha do favicon -->
-    <link rel="shortcut icon" href="img/icon_1-removebg-preview.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="img/icon_1-removebg-preview.png"
+      type="image/x-icon"
+    />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body class="min-vh-100 bg-dark">
+  <body class="min-vh-100 bg-dark">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
-            <div class="container-fluid">
-                <a href="index.html" class="navbar-brand d-flex align-items-center">
-                    <img src="img/foto.jpg" alt="Måneskin" class="logo me-3">
-                    <strong class="fs-4">Måneskin</strong>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>   
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav w-100 justify-content-end mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contatos</a>
-                      </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                    <button class="btn btn-outline-dark" type="submit">Pesquisar</button>
-                    </form>
-                  </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+        <div class="container-fluid">
+          <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <img src="img/foto.jpg" alt="Måneskin" class="logo me-3" />
+            <strong class="fs-4">Måneskin</strong>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav w-100 justify-content-end mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contatos</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Pesquisar"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-dark" type="submit">
+                Pesquisar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <div class="container text-white pt-5">
-            <div class="row">
-                <div class="justify-content-end">
-                    <h1 class="display-4 text-white fw-bolder">
-                        Discografia
-                    </h1>
-                    <div class="my-4">
-                        <button class="btn btn-sm my-2 text-white bg-secondary">
-                            Datas de lançamento
-                        </button>
-                        <button class="btn btn-sm my-2 text-white btn-20-de-janeiro-de-2023">
-                          20 de janeiro de 2023
-                        </button>
-                        <button class="btn btn-sm my-2 text-white btn-20-julho-de-2023">
-                          20 julho de 2023
-                        </button>
-                        <button class="btn btn-sm my-2 text-white btn-16-de-dezembro-de-2022">
-                          16 de dezembro de 2022
-                        </button>
-                        <button class="btn btn-sm my-2 text-white btn-7-de-dezembro-2022">
-                          7 de dezembro 2022
-                        </button>
-                        <button class="btn btn-sm my-2 text-white btn-17-de-junho-2022">
-                          17 de junho 2022
-                        </button>
-                        <button class="btn btn-sm my-2 text-white btn-13-de-maio-de-2022">
-                          13 de maio de 2022
-                        </button>
-                        <button class="btn btn-sm my-2 text-white btn-8-de-outubro-de-2021">
-                          8 de outubro de 2021
-                        </button>
-                        <button class="btn btn-sm my-2 text-white btn-16-de-julho-de-2021">
-                          16 de julho de 2021
-                        </button>
-                        <button class="btn btn-sm my-2 text-white btn-19-de-março-de-2021">
-                          19 de março de 2021
-                        </button>
-                        <button class="btn btn-sm my-2 text-white btn-3-de-março-de-2021">
-                          3 de março de 2021
-                        </button>
-                        <button class="btn btn-sm my-2 text-white btn-28-de-fevereiro-de-2021">
-                          28 de fevereiro de 2021
-                        </button>
-                        <button class="btn btn-sm my-2 text-white btn-30-de-outubro-de-2020">
-                          30 de outubro de 2020
-                        </button>
-                        <button class="btn btn-sm my-2 text-white btn-26-de-outubro-de-2018">
-                          26 de outubro de 2018
-                        </button>
-                        <button class="btn btn-sm my-2 text-white btn-18-de-setembro-de-2018">
-                          18 de setembro de 2018
-                        </button>
-                        <button class="btn btn-sm my-2 text-white btn-23-de-março-de-2018">
-                          23 de março de 2018
-                        </button>
-                        <button class="btn btn-sm my-2 text-white btn-24-de-novembro-de-2017">
-                          24 de novembro de 2017
-                        </button>
-                    </div>
-                </div>
+      <div class="container text-white pt-5">
+        <div class="row">
+          <div class="justify-content-end">
+            <h1 class="display-4 text-white fw-bolder">Discografia</h1>
+            <div class="my-4">
+              <button class="btn btn-sm my-2 text-white bg-secondary">
+                Datas de lançamento
+              </button>
+              <button
+                class="btn btn-sm my-2 text-white btn-20-de-janeiro-de-2023"
+              >
+                20 de janeiro de 2023
+              </button>
+              <button class="btn btn-sm my-2 text-white btn-20-julho-de-2023">
+                20 julho de 2023
+              </button>
+              <button
+                class="btn btn-sm my-2 text-white btn-16-de-dezembro-de-2022"
+              >
+                16 de dezembro de 2022
+              </button>
+              <button class="btn btn-sm my-2 text-white btn-7-de-dezembro-2022">
+                7 de dezembro 2022
+              </button>
+              <button class="btn btn-sm my-2 text-white btn-17-de-junho-2022">
+                17 de junho 2022
+              </button>
+              <button class="btn btn-sm my-2 text-white btn-13-de-maio-de-2022">
+                13 de maio de 2022
+              </button>
+              <button
+                class="btn btn-sm my-2 text-white btn-8-de-outubro-de-2021"
+              >
+                8 de outubro de 2021
+              </button>
+              <button
+                class="btn btn-sm my-2 text-white btn-16-de-julho-de-2021"
+              >
+                16 de julho de 2021
+              </button>
+              <button
+                class="btn btn-sm my-2 text-white btn-19-de-março-de-2021"
+              >
+                19 de março de 2021
+              </button>
+              <button class="btn btn-sm my-2 text-white btn-3-de-março-de-2021">
+                3 de março de 2021
+              </button>
+              <button
+                class="btn btn-sm my-2 text-white btn-28-de-fevereiro-de-2021"
+              >
+                28 de fevereiro de 2021
+              </button>
+              <button
+                class="btn btn-sm my-2 text-white btn-30-de-outubro-de-2020"
+              >
+                30 de outubro de 2020
+              </button>
+              <button
+                class="btn btn-sm my-2 text-white btn-26-de-outubro-de-2018"
+              >
+                26 de outubro de 2018
+              </button>
+              <button
+                class="btn btn-sm my-2 text-white btn-18-de-setembro-de-2018"
+              >
+                18 de setembro de 2018
+              </button>
+              <button
+                class="btn btn-sm my-2 text-white btn-23-de-março-de-2018"
+              >
+                23 de março de 2018
+              </button>
+              <button
+                class="btn btn-sm my-2 text-white btn-24-de-novembro-de-2017"
+              >
+                24 de novembro de 2017
+              </button>
             </div>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
-
-
-              <!-- Início do Card RUSH! -->
-                <div class="col">
-                  <a href="rush.html" class="text-decoration-none">
-                  <div class="card" style="background-color: #ffffff">
-                    <img src="img/rush.jpg" alt="RUSH! (ARE U COMING?)" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">RUSH!</h3>
-                        <div class="d-flex gap-2 my-2">
-                            <button class="btn btn-20-de-janeiro-de-2023 text-white">20 de janeiro de 2023</button>
-                        </div>
-                    </div>
-                  </div>
-                  </a>
-                  </div>
-              <!-- Fim do Card do RUSH! -->
-
-
-              <!-- Início do Card RUSH! (ARE U COMING?) -->
-              <div class="col">
-                <a href="rush are u coming.html" class="text-decoration-none">
-                <div class="card" style="background-color: #ffffff">
-                  <img src="img/rush are u coming.jpg" alt="RUSH! (ARE U COMING?)" class="card-img-top">
-                  <div class="card-body">
-                      <h3 class="card-title">RUSH! (ARE U COMING?)</h3>
-                      <div class="d-flex gap-2 my-2">
-                          <button class="btn btn-20-julho-de-2023 text-white">20 de julho de 2023</button>
-                      </div>
-                  </div>
-                </div>
-                </a>
-              </div>
-              <!-- Fim do Card do RUSH! (ARE U COMING?) -->
-
-
-              <!-- Início do Card SUPERMODEL -->
-              <div class="col">
-              <a href="supermodel.html" class="text-decoration-none">
-                <div class="card" style="background-color: #ffffff;">
-                  <img src="img/supermodel 1.jpg" alt="SUPERMODEL" class="card-img-top">
-                  <div class="card-body">
-                      <h3 class="card-title">SUPERMODEL</h3>
-                      <div class="d-flex gap-2 my-2">
-                          <button class="btn btn-13-de-maio-de-2022 text-white">13 de maio de 2022</button>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Fim do Card do SUPERMODEL -->
-
-
-              <!-- Início do Card IF I CAN DREAM -->
-              <div class="col">
-                <a href="if i can dream.html" class="text-decoration-none">
-                <div class="card" style="background-color: #ffffff;">
-                  <img src="img/if i can dream.jpg" alt="IF I CAN DREAM" class="card-img-top">
-                  <div class="card-body">
-                      <h3 class="card-title">IF I CAN DREAM</h3>
-                      <div class="d-flex gap-2 my-2">
-                          <button class="btn btn-17-de-junho-2022 text-white">17 de junho de 2022</button>
-                      </div>
-                  </div>
-                </div>
-                </a>
-              </div>
-              <!-- Fim do Card do IF I CAN DREAM -->
-
-
-                <!-- Início do Card do THE LONELIST -->
-                <div class="col">
-                  <a href="the lonelist.html" class="text-decoration-none">
-                  <div class="card" style="background-color: #ffffff">
-                    <img src="img/the lonelist.jpg" alt="THE LONELIST" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">THE LONELIST</h3>
-                        <div class="d-flex gap-2 my-2">
-                            <button class="btn btn-7-de-dezembro-2022 text-white">7 de dezembro de 2022</button>
-                        </div>
-                    </div>
-                  </div>
-                  </a>
-                </div>
-                <!-- Fim do Card do THE LONELIST -->
-
-
-                <!-- Início do Card LA FINE -->
-                <div class="col">
-                  <a href="la fine.html" class="text-decoration-none">
-                  <div class="card" style="background-color: #ffffff">
-                    <img src="img/rush.jpg" alt="LA FINE" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-text mb-1">LA FINE</h3>
-                        <div class="d-flex gap-2 my-2">
-                          <button class="btn btn-16-de-dezembro-de-2022 text-white">16 de dezembro de 2022</button>
-                        </div>
-                    </div>
-                  </div>
-                  </a>
-                </div>
-                <!-- Fim do Card do LA FINE -->
-
-
-                <!-- Início do Card do MAMAMIA -->
-                <div class="col">
-                <a href="mamamia.html" class="text-decoration-none">
-                  <div class="card" style="background-color: #ffffff;">
-                    <img src="img/mvj4c3tb.png" alt="MAMAMIA" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">MAMAMIA</h3>
-                        <div class="d-flex gap-2 my-2">
-                            <button class="btn btn-8-de-outubro-de-2021 text-white">8 de outubro de 2021</button>
-                        </div>
-                    </div>
-                  </div>
-                </a>
-                </div>
-                <!-- Fim do Card do MAMAMIA -->
-
-                <!-- Início do Card do I WANNA BE YOUR SLAVE -->
-                <div class="col">
-                  <a href="i wanna be your slave.html" class="text-decoration-none">
-                  <div class="card" style="background-color: #ffffff">
-                    <img src="img/i wanna be your slave.jpg" alt="I WANNA BE YOUR SLAVE" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">I WANNA BE YOUR SLAVE</h3>
-                        <div class="d-flex gap-2 my-2">
-                            <button class="btn btn-16-de-julho-de-2021 text-white">16 de julho de 2021</button>
-                        </div>
-                    </div>
-                  </div>
-                </a>
-                </div>
-                <!-- Fim do Card do I WANNA BE YOUR SLAVE -->
-
-                <!-- Início do Card do TEATRO D'IRA VOL.1 -->
-                <div class="col">
-                  <a href="teatro d'ira vol1.html" class="text-decoration-none">
-                  <div class="card" style="background-color: #ffffff">
-                    <img src="img/teatro d'ira.jpg" alt="TEATRO D'IRA VOL.1" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">TEATRO D'IRA VOL.1</h3>
-                        <div class="d-flex gap-2 my-2">
-                            <button class="btn btn-19-de-março-de-2021 text-white">19 de março de 2021</button>
-                        </div>
-                    </div>
-                  </div>
-                </a>
-                </div>
-                <!-- Fim do Card do TEATRO D'IRA VOL.1   -->
-
-                <!-- Início do Card ZITTI E BUONI -->
-                <div class="col">
-                <a href="zitti e buoni.html" class="text-decoration-none">
-                  <div class="card" style="background-color: #ffffff">
-                    <img src="img/zitti e buoni.jpg" alt="ZITTI E BUONI" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">ZITTI E BUONI</h3>
-                        <div class="d-flex gap-2 my-2">
-                            <button class="btn btn-3-de-março-de-2021 text-white">3 de março de 2021</button>
-                        </div>
-                    </div>
-                  </div>
-                </a>
-                </div>
-                <!-- Fim do Card do ZITTI E BUONI -->
-
-                <!-- Início do Card BEGGIN' (LIVE) -->
-                <div class="col">
-                  <a href="beggin live.html" class="text-decoration-none">
-                  <div class="card" style="background-color: #ffffff">
-                    <img src="img/begg.jpg" alt="BEGGIN' (LIVE)" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">BEGGIN' (LIVE)</h3>
-                        <div class="d-flex gap-2 my-2">
-                            <button class="btn btn-28-de-fevereiro-de-2021 text-white">28 de fevereiro de 2021</button>
-                        </div>
-                    </div>
-                  </div>
-                </a>
-                </div>
-                <!-- Fim do Card BEGGIN' (LIVE) -->
-
-                <!-- Início do Card VENT'ANNI -->
-                <div class="col">
-                <a href="vent'anni.html" class="text-decoration-none">
-                  <div class="card" style="background-color: #ffffff">
-                    <img src="img/vent'anni.jpg" alt="VENT'ANNI" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">VENT'ANNI</h3>
-                        <div class="d-flex gap-2 my-2">
-                            <button class="btn btn-30-de-outubro-de-2020 text-white">30 de outubro de 2020</button>
-                        </div>
-                    </div>
-                  </div>
-                </a>
-                </div>
-                <!-- Fim do Card do VENT'ANNI -->
-
-                <!-- Início do Card II BALLO DELLA VITA -->
-                <div class="col">
-                  <a href="ii ballo della vita.html" class="text-decoration-none">
-                  <div class="card" style="background-color: #ffffff">
-                    <img src="img/ii ballo della vita.jpg" alt="II BALLO DELLA VITA" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">II BALLO DELLA VITA</h3>
-                        <div class="d-flex gap-2 my-2">
-                            <button class="btn btn-26-de-outubro-de-2018 text-white">26 de outubro de 2018</button>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <!-- Fim do Card do II BALLO DELLA VITA -->
-
-                <!-- Início do Card do TORNA A CASA -->
-                <div class="col">
-                  <a href="torna a casa.html" class="text-decoration-none">
-                    <div class="card" style="background-color: #ffffff">
-                      <img src="img/torna a casa.jpg" alt="TORNA A CASA" class="card-img-top">
-                      <div class="card-body">
-                          <h3 class="card-title">TORNA A CASA</h3>
-                          <div class="d-flex gap-2 my-2">
-                              <button class="btn btn-18-de-setembro-de-2018 text-white">18 de setembro de 2018</button>
-                          </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <!-- Fim do Card do TORNA A CASA -->
-
-                <!-- Início do Card MORIRÓ DA RE -->
-                <div class="col">
-                  <a href="moriro da re.html" class="text-decoration-none">
-                    <div class="card" style="background-color: #ffffff">
-                      <img src="img/moriro da re.jpg" alt="MORIRÓ DA RE" class="card-img-top">
-                      <div class="card-body">
-                          <h3 class="card-title">MORIRÓ DA RE</h3>
-                          <div class="d-flex gap-2 my-2">
-                              <button class="btn btn-23-de-março-de-2018 text-white">23 de março de 2018</button>
-                          </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <!-- Fim do Card do MORIRÓ DA RE -->
-
-                <!-- Início do Card do CHOSEN -->
-                <div class="col">
-                  <a href="chosen.html" class="text-decoration-none"></a>
-                  <div class="card" style="background-color: #ffffff">
-                    <img src="img/chosen.jpg" alt="CHOSEN" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">CHOSEN</h3>
-                        <div class="d-flex gap-2 my-2">
-                            <button class="btn btn-24-de-novembro-de-2017 text-white">24 de novembro de 2017</button>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Fim do Card do CHOSEN -->
-
-              </div>
+          </div>
         </div>
-   </main>
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3"
+        >
+          <!-- Início do Card RUSH! -->
+          <div class="col">
+            <a href="rush.html" class="text-decoration-none">
+              <div class="card h-100" style="background-color: #ffffff">
+                <img
+                  src="img/rush.jpg"
+                  alt="RUSH! (ARE U COMING?)"
+                  class="w-100 p-2"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">RUSH!</h3>
+                  <div class="d-flex gap-2 my-2">
+                    <button class="btn btn-20-de-janeiro-de-2023 text-white">
+                      20 de janeiro de 2023
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Fim do Card do RUSH! -->
+
+          <!-- Início do Card RUSH! (ARE U COMING?) -->
+          <div class="col">
+            <a href="rush are u coming.html" class="text-decoration-none">
+              <div class="card h-100" style="background-color: #ffffff">
+                <img
+                  src="img/rush are u coming.jpg"
+                  alt="RUSH! (ARE U COMING?)"
+                  class="w-100 p-2"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">RUSH! (ARE U COMING?)</h3>
+                  <div class="d-flex gap-2 my-2">
+                    <button class="btn btn-20-julho-de-2023 text-white">
+                      20 de julho de 2023
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Fim do Card do RUSH! (ARE U COMING?) -->
+
+          <!-- Início do Card SUPERMODEL -->
+          <div class="col">
+            <a href="supermodel.html" class="text-decoration-none">
+              <div class="card h-100" style="background-color: #ffffff">
+                <img
+                  src="img/supermodel 1.jpg"
+                  alt="SUPERMODEL"
+                  class="w-100 p-2"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">SUPERMODEL</h3>
+                  <div class="d-flex gap-2 my-2">
+                    <button class="btn btn-13-de-maio-de-2022 text-white">
+                      13 de maio de 2022
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Fim do Card do SUPERMODEL -->
+
+          <!-- Início do Card IF I CAN DREAM -->
+          <div class="col">
+            <a href="if i can dream.html" class="text-decoration-none">
+              <div class="card" style="background-color: #ffffff">
+                <img
+                  src="img/if i can dream.jpg"
+                  alt="IF I CAN DREAM"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">IF I CAN DREAM</h3>
+                  <div class="d-flex gap-2 my-2">
+                    <button class="btn btn-17-de-junho-2022 text-white">
+                      17 de junho de 2022
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Fim do Card do IF I CAN DREAM -->
+
+          <!-- Início do Card do THE LONELIST -->
+          <div class="col">
+            <a href="the lonelist.html" class="text-decoration-none">
+              <div class="card" style="background-color: #ffffff">
+                <img
+                  src="img/the lonelist.jpg"
+                  alt="THE LONELIST"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">THE LONELIST</h3>
+                  <div class="d-flex gap-2 my-2">
+                    <button class="btn btn-7-de-dezembro-2022 text-white">
+                      7 de dezembro de 2022
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Fim do Card do THE LONELIST -->
+
+          <!-- Início do Card LA FINE -->
+          <div class="col">
+            <a href="la fine.html" class="text-decoration-none">
+              <div class="card" style="background-color: #ffffff">
+                <img src="img/rush.jpg" alt="LA FINE" class="card-img-top" />
+                <div class="card-body">
+                  <h3 class="card-text mb-1">LA FINE</h3>
+                  <div class="d-flex gap-2 my-2">
+                    <button class="btn btn-16-de-dezembro-de-2022 text-white">
+                      16 de dezembro de 2022
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Fim do Card do LA FINE -->
+
+          <!-- Início do Card do MAMAMIA -->
+          <div class="col">
+            <a href="mamamia.html" class="text-decoration-none">
+              <div class="card" style="background-color: #ffffff">
+                <img
+                  src="img/mvj4c3tb.png"
+                  alt="MAMAMIA"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">MAMAMIA</h3>
+                  <div class="d-flex gap-2 my-2">
+                    <button class="btn btn-8-de-outubro-de-2021 text-white">
+                      8 de outubro de 2021
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Fim do Card do MAMAMIA -->
+
+          <!-- Início do Card do I WANNA BE YOUR SLAVE -->
+          <div class="col">
+            <a href="i wanna be your slave.html" class="text-decoration-none">
+              <div class="card" style="background-color: #ffffff">
+                <img
+                  src="img/i wanna be your slave.jpg"
+                  alt="I WANNA BE YOUR SLAVE"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">I WANNA BE YOUR SLAVE</h3>
+                  <div class="d-flex gap-2 my-2">
+                    <button class="btn btn-16-de-julho-de-2021 text-white">
+                      16 de julho de 2021
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Fim do Card do I WANNA BE YOUR SLAVE -->
+
+          <!-- Início do Card do TEATRO D'IRA VOL.1 -->
+          <div class="col">
+            <a href="teatro d'ira vol1.html" class="text-decoration-none">
+              <div class="card" style="background-color: #ffffff">
+                <img
+                  src="img/teatro d'ira.jpg"
+                  alt="TEATRO D'IRA VOL.1"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">TEATRO D'IRA VOL.1</h3>
+                  <div class="d-flex gap-2 my-2">
+                    <button class="btn btn-19-de-março-de-2021 text-white">
+                      19 de março de 2021
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Fim do Card do TEATRO D'IRA VOL.1   -->
+
+          <!-- Início do Card ZITTI E BUONI -->
+          <div class="col">
+            <a href="zitti e buoni.html" class="text-decoration-none">
+              <div class="card" style="background-color: #ffffff">
+                <img
+                  src="img/zitti e buoni.jpg"
+                  alt="ZITTI E BUONI"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">ZITTI E BUONI</h3>
+                  <div class="d-flex gap-2 my-2">
+                    <button class="btn btn-3-de-março-de-2021 text-white">
+                      3 de março de 2021
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Fim do Card do ZITTI E BUONI -->
+
+          <!-- Início do Card BEGGIN' (LIVE) -->
+          <div class="col">
+            <a href="beggin live.html" class="text-decoration-none">
+              <div class="card" style="background-color: #ffffff">
+                <img
+                  src="img/begg.jpg"
+                  alt="BEGGIN' (LIVE)"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">BEGGIN' (LIVE)</h3>
+                  <div class="d-flex gap-2 my-2">
+                    <button class="btn btn-28-de-fevereiro-de-2021 text-white">
+                      28 de fevereiro de 2021
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Fim do Card BEGGIN' (LIVE) -->
+
+          <!-- Início do Card VENT'ANNI -->
+          <div class="col">
+            <a href="vent'anni.html" class="text-decoration-none">
+              <div class="card" style="background-color: #ffffff">
+                <img
+                  src="img/vent'anni.jpg"
+                  alt="VENT'ANNI"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">VENT'ANNI</h3>
+                  <div class="d-flex gap-2 my-2">
+                    <button class="btn btn-30-de-outubro-de-2020 text-white">
+                      30 de outubro de 2020
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Fim do Card do VENT'ANNI -->
+
+          <!-- Início do Card II BALLO DELLA VITA -->
+          <div class="col">
+            <a href="ii ballo della vita.html" class="text-decoration-none">
+              <div class="card" style="background-color: #ffffff">
+                <img
+                  src="img/ii ballo della vita.jpg"
+                  alt="II BALLO DELLA VITA"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">II BALLO DELLA VITA</h3>
+                  <div class="d-flex gap-2 my-2">
+                    <button class="btn btn-26-de-outubro-de-2018 text-white">
+                      26 de outubro de 2018
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Fim do Card do II BALLO DELLA VITA -->
+
+          <!-- Início do Card do TORNA A CASA -->
+          <div class="col">
+            <a href="torna a casa.html" class="text-decoration-none">
+              <div class="card" style="background-color: #ffffff">
+                <img
+                  src="img/torna a casa.jpg"
+                  alt="TORNA A CASA"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">TORNA A CASA</h3>
+                  <div class="d-flex gap-2 my-2">
+                    <button class="btn btn-18-de-setembro-de-2018 text-white">
+                      18 de setembro de 2018
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Fim do Card do TORNA A CASA -->
+
+          <!-- Início do Card MORIRÓ DA RE -->
+          <div class="col">
+            <a href="moriro da re.html" class="text-decoration-none">
+              <div class="card" style="background-color: #ffffff">
+                <img
+                  src="img/moriro da re.jpg"
+                  alt="MORIRÓ DA RE"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">MORIRÓ DA RE</h3>
+                  <div class="d-flex gap-2 my-2">
+                    <button class="btn btn-23-de-março-de-2018 text-white">
+                      23 de março de 2018
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Fim do Card do MORIRÓ DA RE -->
+
+          <!-- Início do Card do CHOSEN -->
+          <div class="col">
+            <a href="chosen.html" class="text-decoration-none"></a>
+            <div class="card" style="background-color: #ffffff">
+              <img src="img/chosen.jpg" alt="CHOSEN" class="card-img-top" />
+              <div class="card-body">
+                <h3 class="card-title">CHOSEN</h3>
+                <div class="d-flex gap-2 my-2">
+                  <button class="btn btn-24-de-novembro-de-2017 text-white">
+                    24 de novembro de 2017
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim do Card do CHOSEN -->
+        </div>
+      </div>
+    </main>
 
     <footer class="py-3">
-        <div class="container text-white">
-            <hr>
-            <p class="float-end">
-                <a href="#">
-                    <i class="bi bi-arrow-up-square-fill text-danger fs-2"></i>
-                </a>
-            </p>
-            <p class="mb-1">Discografia dos Maneskin - feito para estudo</p>
-            <p>Projeto desenvolvido para estudo de HTML/CSS/BOOTSTRAP</p>
-        </div>
+      <div class="container text-white">
+        <hr />
+        <p class="float-end">
+          <a href="#">
+            <i class="bi bi-arrow-up-square-fill text-danger fs-2"></i>
+          </a>
+        </p>
+        <p class="mb-1">Discografia dos Maneskin - feito para estudo</p>
+        <p>Projeto desenvolvido para estudo de HTML/CSS/BOOTSTRAP</p>
+      </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>  
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
