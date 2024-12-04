@@ -4,6 +4,14 @@
     border-radius: 50%;
 }
 
+.img-card {
+    height: 200px;
+    width: 80%;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+
 .navbar {
     background-color: rgb(0, 0, 0);
 }
@@ -71,4 +79,35 @@
 .btn-24-de-novembro-de-2017 {
     background-color: rgb(88, 88, 88);
 }
+
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 45px;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .col-lg-3 {
+    padding-right: 50px; /* Ajuste do espaço entre a imagem e o texto */
+  }
+  
+  .img-card {
+    max-width: 50%; /* Define a imagem menor */
+    height: auto;
+  }
+  
+  .col-lg-9 {
+    margin-left: 0; /* Remove qualquer margem extra à esquerda */
+    padding-left: 0; /* Remove padding extra à esquerda */
+  }
+  
+  .text-white p {
+    margin-bottom: 0; /* Remove a margem inferior para reduzir o espaço */
+  }
 
